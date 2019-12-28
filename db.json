@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "host@mail.com"
+    },
+    {
+      "id": 2,
+      "email": "guest@mail.com"
+    }
+  ],
+  "places": [
+    {
+      "id": 1,
+      "title": "Apartment in Palermo",
+      "description": "Cozy 1 room apartment in a vibrant neighborhood",
+      "type": "APARTMENT",
+      "lat": -34.594142,
+      "long": -58.422036
+    },
+    {
+      "id": 2,
+      "name": "House in San Isidro",
+      "description": "Big fancy house in San Isidro",
+      "type": "HOUSE",
+      "lat": -34.46761,
+      "long": -58.510191
+    },
+    {
+      "id": 3,
+      "name": "Room in Isidro Casanova",
+      "description": "Low budget",
+      "type": "ROOM",
+      "lat": -34.7108671,
+      "long": -58.5958651
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "place_id": 1,
+      "available_from": "2019-11-28T00:15:51.312Z",
+      "available_to": "2019-12-28T00:15:51.312Z",
+      "host_id": 1
+    }
+  ],
+  "payments": [
+    {
+      "id": 1
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "guest_id": 2,
+      "from": "2019-11-29T00:15:51.312Z",
+      "to": "2019-12-03T00:15:51.312Z",
+      "host_id": 1,
+      "payment_id": 1,
+      "status": "FULFILLED"
+    }
+  ]
+}
